@@ -10,14 +10,8 @@
       {
         "name": "Gather-AI-v0.2.0.01-Revise5-internal-dev.apk",
         "browser_download_url": "https://github.com/yeyeqiguai-create/Gather-AI-Releases/releases/download/v0.2.0.01-Revise5-internal-dev/Gather-AI-v0.2.0.01-Revise5-internal-dev.apk",
-        "digest": "sha256:142983f8e75da5fd117f92b86e007ce45ea99228d1ec84b5e22e27250be612fb",
-        "size": 16697377
-      },
-      {
-        "name": "update.json",
-        "browser_download_url": "https://github.com/yeyeqiguai-create/Gather-AI-Releases/releases/download/v0.2.0.01-Revise5-internal-dev/update.json",
-        "digest": "sha256:b87adee97eb64aa4cf288c0c675bd431d4f96dc14da9675348a93993322c48cf",
-        "size": 902
+        "digest": "sha256:2ac20c6f0f5ce906163137f608548b7b0749bb891f1a6fa96e0afb8760f6f843",
+        "size": 16697320
       }
     ]
   },
