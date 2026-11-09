@@ -2,6 +2,28 @@
   {
     "draft": false,
     "prerelease": true,
+    "tag_name": "v0.2.0.01-Revise5-internal-dev",
+    "name": "Gather AI v0.2.0.01（Revise5）内部开发版",
+    "body": "Gather AI v0.2.0.01（Revise5）内部开发版\n\n优化启动呈现和会话清理：\n- Android 12 及以上启动页改用居中矢量标识，加入低幅度轨道旋转与光感呼吸，避免使用会被系统遮罩裁切的启动器图片。\n- 启动时恢复最后一次会话，不重复创建空会话。\n- 清理抽屉里未修改的重复空会话；保留消息、未发送草稿、改名、独立模型、会话指令、置顶或归档设置。\n- 连续点击新建时复用当前未修改的空会话，避免堆积记录。\n\nAPK 为 Android Debug 签名内部开发版。\n\n<div hidden>\nversionCode: 74\nversionName: v0.2.0.01 (Revise5)\n</div>",
+    "published_at": "2026-11-09T05:37:19Z",
+    "assets": [
+      {
+        "name": "Gather-AI-v0.2.0.01-Revise5-internal-dev.apk",
+        "browser_download_url": "https://github.com/yeyeqiguai-create/Gather-AI-Releases/releases/download/v0.2.0.01-Revise5-internal-dev/Gather-AI-v0.2.0.01-Revise5-internal-dev.apk",
+        "digest": "sha256:fa75453802994ec020b42d93ca722fc49aeadd7b7beb8e3e77360fac3fb90eb9",
+        "size": 16558245
+      },
+      {
+        "name": "update.json",
+        "browser_download_url": "https://github.com/yeyeqiguai-create/Gather-AI-Releases/releases/download/v0.2.0.01-Revise5-internal-dev/update.json",
+        "digest": "sha256:8fbf47592f71f6c02f8530bd138dfc9b2d43cb448411e88f024f82655959ce79",
+        "size": 902
+      }
+    ]
+  },
+  {
+    "draft": false,
+    "prerelease": true,
     "tag_name": "v0.2.0.01-Revise4-internal-dev",
     "name": "Gather AI v0.2.0.01（Revise4）内部开发版",
     "body": "Gather AI v0.2.0.01（Revise4）内部开发版\n\n修复跨版本线更新检测，并将检查入口迁移到仅含安装包和更新清单的发布仓库：\n- 移除更新选择器对 0.1 版本线的硬编码过滤，正确识别 0.2 及后续版本。\n- 不再让旧 0.1 版本遮挡当前 0.2 版本；继续用版本名和 versionCode 双重判断，防止降级安装。\n- 静态清单和 GitHub API 回退均从 Gather-AI-Releases 获取。\n\nAPK 为 Android Debug 签名内部开发版。\n\n<div hidden>\nversionCode: 73\nversionName: v0.2.0.01 (Revise4)\n</div>",
