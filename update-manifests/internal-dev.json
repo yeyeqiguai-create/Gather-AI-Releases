@@ -2,6 +2,22 @@
   {
     "draft": false,
     "prerelease": true,
+    "tag_name": "v0.2.0.01-Revise6-internal-dev",
+    "name": "Gather AI v0.2.0.01（Revise6）内部开发版",
+    "body": "Gather AI v0.2.0.01（Revise6）内部开发版\n\n扩充模型目录与服务商：\n- 内置 108 个模型选择项，覆盖 OpenAI、Anthropic、Gemini、DeepSeek、阿里云百炼、Kimi、智谱、Mistral、xAI、Groq、硅基流动和 OpenRouter。\n- 为 OpenAI、Claude、Gemini、Qwen、Kimi、GLM 等系列补入更多当前常用聊天模型。\n- 新增 Mistral AI、xAI Grok、Groq 服务商入口，并扩充 OpenRouter 跨厂商模型选择。\n- 保留 API Key 后读取账号实际可用模型的功能；模型权限仍以服务商账号为准。\n- 补充新模型的图片输入能力识别，并处理 GPT-6 推理模型不兼容的 temperature 参数。\n\nAPK 为 Android Debug 签名内部开发版。\n\n<div hidden>\nversionCode: 75\nversionName: v0.2.0.01 (Revise6)\n</div>",
+    "published_at": "2026-11-09T06:34:58Z",
+    "assets": [
+      {
+        "name": "Gather-AI-v0.2.0.01-Revise6-internal-dev.apk",
+        "size": 16558245,
+        "browser_download_url": "https://github.com/yeyeqiguai-create/Gather-AI-Releases/releases/download/v0.2.0.01-Revise6-internal-dev/Gather-AI-v0.2.0.01-Revise6-internal-dev.apk",
+        "digest": "sha256:5a57776ade6b97961f6ffc92fcdb3ff8ddb0a447966289d068a562e1695eb0e8"
+      }
+    ]
+  },
+  {
+    "draft": false,
+    "prerelease": true,
     "tag_name": "v0.2.0.01-Revise5-internal-dev",
     "name": "Gather AI v0.2.0.01（Revise5）内部开发版",
     "body": "Gather AI v0.2.0.01（Revise5）内部开发版\n\n优化启动呈现和会话清理：\n- Android 12 及以上启动页改用居中矢量标识，加入低幅度轨道旋转与光感呼吸，避免使用会被系统遮罩裁切的启动器图片。\n- 启动时恢复最后一次会话，不重复创建空会话。\n- 清理抽屉里未修改的重复空会话；保留消息、未发送草稿、改名、独立模型、会话指令、置顶或归档设置。\n- 连续点击新建时复用当前未修改的空会话，避免堆积记录。\n\nAPK 为 Android Debug 签名内部开发版。\n\n<div hidden>\nversionCode: 74\nversionName: v0.2.0.01 (Revise5)\n</div>",
