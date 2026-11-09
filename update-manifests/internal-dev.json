@@ -2,6 +2,22 @@
   {
     "draft": false,
     "prerelease": true,
+    "tag_name": "v0.2.0.01-Revise7-internal-dev",
+    "name": "Gather AI v0.2.0.01（Revise7）内部开发版",
+    "body": "扩充 Qwen、GLM 与 DeepSeek 模型目录：\n- 阿里云百炼增加通义千问当前聊天型号、快照、Coder/VL/Omni/翻译/文档/研究与开放权重型号，并补齐百炼托管的 DeepSeek 和 GLM 型号。\n- 智谱官方目录补齐 GLM-5/4 文本、Agent、视觉与多模态聊天型号。\n- OpenRouter 内置目录按当前模型 API 核对，收录 72 个 Qwen、GLM、DeepSeek 聊天型号。\n- 硅基流动补入经官方文档确认的主流型号，填入 API Key 后可读取账号的完整可用目录。\n- 修复模型读取、保存与路由链路的 300/32/33 条截断，最多保留 5,000 个账号模型；补齐图片能力识别。\n\nAPK 为 Android Debug 签名内部开发版。\n\n<div hidden>\nversionCode: 76\nversionName: v0.2.0.01 (Revise7)\n</div>",
+    "published_at": "2026-11-09T07:13:15Z",
+    "assets": [
+      {
+        "name": "Gather-AI-v0.2.0.01-Revise7-internal-dev.apk",
+        "size": 16558245,
+        "browser_download_url": "https://github.com/yeyeqiguai-create/Gather-AI-Releases/releases/download/v0.2.0.01-Revise7-internal-dev/Gather-AI-v0.2.0.01-Revise7-internal-dev.apk",
+        "digest": "sha256:e4a55e152d30ed8a086d1f19ed17084f5a3614bf93823537136ac950383e3bb7"
+      }
+    ]
+  },
+  {
+    "draft": false,
+    "prerelease": true,
     "tag_name": "v0.2.0.01-Revise6-internal-dev",
     "name": "Gather AI v0.2.0.01（Revise6）内部开发版",
     "body": "Gather AI v0.2.0.01（Revise6）内部开发版\n\n扩充模型目录与服务商：\n- 内置 108 个模型选择项，覆盖 OpenAI、Anthropic、Gemini、DeepSeek、阿里云百炼、Kimi、智谱、Mistral、xAI、Groq、硅基流动和 OpenRouter。\n- 为 OpenAI、Claude、Gemini、Qwen、Kimi、GLM 等系列补入更多当前常用聊天模型。\n- 新增 Mistral AI、xAI Grok、Groq 服务商入口，并扩充 OpenRouter 跨厂商模型选择。\n- 保留 API Key 后读取账号实际可用模型的功能；模型权限仍以服务商账号为准。\n- 补充新模型的图片输入能力识别，并处理 GPT-6 推理模型不兼容的 temperature 参数。\n\nAPK 为 Android Debug 签名内部开发版。\n\n<div hidden>\nversionCode: 75\nversionName: v0.2.0.01 (Revise6)\n</div>",
